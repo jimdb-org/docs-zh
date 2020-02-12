@@ -1,27 +1,36 @@
-.. chubaodb_readthedoc documentation master file, created by
+.. JIMDB documentation master file, created by
    sphinx-quickstart on Fri Nov  8 16:59:02 2019.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to chubaodb_readthedoc's documentation!
+JIMDB 文档
 ===============================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: introduction
+JIMDB是一个支持KV和SQL两种协议，支持智能存储分层的分布式存储系统
 
-   introduction/overview
-
+我们致力于打造一个不需要前端缓存, 只需要少量RAM节点的高性能弹性数据存储平台
 
 .. toctree::
    :maxdepth: 2
-   :caption: Deploy
+   :caption: 概览
+
+   overview/overview
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 快速开始
 
    deploy/singleBeta
    deploy/auto
-   deploy/dataServer
-   deploy/masterServer
-   deploy/proxy
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 用户手册
+
+   user-manual/redis/redis
+   user-manual/sql/sql
 
 
 .. toctree::
