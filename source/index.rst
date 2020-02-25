@@ -14,7 +14,8 @@ JIMDB是一个支持 key-value and SQL 两种协议，支持智能存储分层�
    :maxdepth: 2
    :caption: 概览
 
-   overview/overview
+   features
+   overview/architecture
 
 
 .. toctree::
@@ -22,7 +23,7 @@ JIMDB是一个支持 key-value and SQL 两种协议，支持智能存储分层�
    :caption: 快速开始
 
    deploy/singleBeta
-   deploy/auto
+   deploy/sourceBased
 
 
 .. toctree::
@@ -35,10 +36,16 @@ JIMDB是一个支持 key-value and SQL 两种协议，支持智能存储分层�
 
 .. toctree::
    :maxdepth: 2
-   :caption: Design Documentation
+   :caption: 设计文档
 
-   design/redis
-   design/sql
+   design/README
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 查看源码
+
+   github地址 <https://github.com/jimdb-org/jimdb>
+   
 
 
 
