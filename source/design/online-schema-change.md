@@ -1,4 +1,5 @@
-#整体架构
+# 在线schema变更设计
+
 参考spanner schema算法：利用多个递进状态执行，只要保证任意相邻两个状态是相互兼容的，整个过程就是可依赖的。只有table owner节点执行对应table DDL 
 
 ![ddl架构图](../images/ddl-structure.png)

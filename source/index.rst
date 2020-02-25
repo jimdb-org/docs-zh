@@ -40,6 +40,21 @@ JIMDB是一个支持 key-value and SQL 两种协议，支持智能存储分层�
 
    design/README
 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Perfomance
+
+   perfomance/perfomance
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: FAQ
+
+   faq/faq
+
+
 .. toctree::
    :maxdepth: 2
    :caption: 查看源码

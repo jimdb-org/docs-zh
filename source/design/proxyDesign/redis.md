@@ -1,4 +1,4 @@
-# 整体架构
+# Redis设计
   ap设计为兼容redis协议的tcp服务端，负责接收原生redis客户端命令，然后调用JIMDB sdk与data server进行交互，写入或读取数据，并将data server返回的数据转换为redis协议，返回给客户端，完成redis命令的处理，整体处理流程如下：
 
   ![整体架构图](../../images/redis-proxy-structure.png)

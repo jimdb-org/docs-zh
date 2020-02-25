@@ -1,4 +1,4 @@
-# 整体架构
+#  SQL设计
 ![SQL执行流程](../../images/sql-proxy-structure.jpg)
 上图是SQL引擎的整体架构：其中左边是协议层，主要负责管理用户连接，解析用户SQL，
 并将处理好的结果数据封装成MySQL协议形式返回给客户端。中间的Session Context主要负责处理session变量。SQL经过parser解析成AST，然后经过Optimize、SQL执行引擎、存储层协处理器得到计算结果。
